@@ -66,6 +66,7 @@ label.inl {
 
 input[type="text"],
 input[type="email"],
+input[type="tel"],
 select {
 	width: 100%;
 	background-color: #e8eeef;
@@ -92,6 +93,7 @@ input[type="checkbox"] {
 
 input[type="text"]:focus,
 input[type="email"]:focus,
+input[type="tel"]:focus,
 textarea:focus {
 	-webkit-transition: all 0.30s ease-in-out;
   -moz-transition: all 0.30s ease-in-out;
@@ -188,6 +190,11 @@ p.copyright {
 	padding: 30px 0;
 }
 
+span {
+	margin: 18px 0 5px 0;
+	display: block;
+}
+
 /* ---- Float clearfix ---- */
 
 .clearfix::after {
@@ -217,6 +224,7 @@ p.copyright {
 
 	input[type="text"],
 	input[type="email"],
+	input[type="tel"],
 	select {
 		display: inline-block;
 		margin-top: 20px;

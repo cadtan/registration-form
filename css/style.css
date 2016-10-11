@@ -96,12 +96,12 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 textarea:focus {
 	-webkit-transition: all 0.30s ease-in-out;
-  -moz-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
   -ms-transition: all 0.30s ease-in-out;
   -o-transition: all 0.30s ease-in-out;
   outline: none;
-  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
-  border: 1px solid rgba(81, 203, 238, 1);
+  box-shadow: 0 0 5px rgba(5, 89, 154, 1);
+  border: 1px solid rgba(5, 89, 154, 1);
   padding: 15px;
 }
 
@@ -228,7 +228,7 @@ span {
 	select {
 		display: inline-block;
 		margin-top: 20px;
-		width: 76.5%;
+		width: 76%;
 	}
 
 	input[type="checkbox"] + label, 
